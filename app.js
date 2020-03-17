@@ -17,5 +17,3 @@ app.use('/', routes);
 app.listen(3000, () => {
     console.log('App Running on PORT 3000');
 })
-
-
