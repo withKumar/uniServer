@@ -14,6 +14,8 @@ app.use(logger('dev'));
 
 app.use('/', routes);
 
+console.log('App Moving');
+
 app.listen(3000, () => {
     console.log('App Running on PORT 3000');
 })
